@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Epal Klúbburinn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+
+<div class="span12">
+<form action="https://samskipti.zenter.is/import" method="POST">	<!--		Required fields.		You can edit the redirect value but the ther must stay the same	-->	<input type="hidden" name="client_id" value="27" />	<input type="hidden" name="list_id" value="380" />	<input type="hidden" name="password" value="93597c27f7cbe61d6ca80394712e6833" />	<input type="hidden" name="redirect" value="http://www.epal.is/ipad/klubbur/" />	<input type="hidden" name="list[]" value="14696" />	<!--		Additional options:		You can use these fields with added numbers to add to aditional variables and values		Glossary:		vars = Audience Categories / MarkhÛpaflokkar		vals = Audience / MarkhÛpur		<input type="hidden" name="vars[#var_id#][]" value="#val_id#" />		<input type="hidden" name="list[]" value="#list_id#" />		You can also use lists and vars in other kinds of input.		For example Dropdown (select), checkboxes or radio buttons	-->	<!--		All the fields below are optional but one of the following		must be present so the system will accept the registration.		- kt		- email		- mobile	--><h1 style="font-size: 55px; padding-bottom: 40px; padding-top: 40px; text-align:center;">Skráðu þig í Epal Klúbbinn</h1>	<input placeholder="Netfang" class="input-block-level" type="email" name="email" style="font-size: 40px; height: 60px; line-height: 60px;" autofocus/>
+
+<button class="btn btn-large btn-primary" style="background-color:red; background-image:none;font-size: 40px; height: 60px; margin-top: 40px; width:100%" type="submit">Skrá mig</button></form>
+</div>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
